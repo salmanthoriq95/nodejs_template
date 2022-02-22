@@ -1,0 +1,30 @@
+{
+	"name": "task-scheduler-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start:dev:win": "set APP_ENV=dev&& nodemon src",
+		"test": "jest",
+		"doc": "jsdoc -c jsdoc.json"
+	},
+	"keywords": [
+		"scheduler",
+		"task",
+		"task scheduler"
+	],
+	"author": "Salman Thoriq Al Farisyi",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"jest": "^27.5.1",
+		"joi": "^17.6.0",
+		"knex": "^1.0.3",
+		"mysql2": "^2.3.3"
+	},
+	"devDependencies": {
+		"jsdoc": "^3.6.10"
+	}
+}
